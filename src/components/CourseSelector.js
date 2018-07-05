@@ -7,7 +7,7 @@ const CourseSelector = () => {
       <select className="ui dropdown">
         {courseList.map((course, i) => {
           return (
-            <option key={i} className="item" data-value={course.id}>
+            <option key={i} className="item" value={course.id}>
               {course.name}
             </option>
           );
